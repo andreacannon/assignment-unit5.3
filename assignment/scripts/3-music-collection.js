@@ -1,8 +1,18 @@
 console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
 
+//Create an empty array
+const myCollection = [];
 
-
+// Create function named addToCollection
+function addToCollection(collection, title, artist, yearPublished) {
+  // New object with album info
+  const newAlbum = {
+    title: title,
+    artist: artist,
+    yearPublished: yearPublished
+  };
+  
 
 
 
